@@ -3,7 +3,8 @@ import sqlite3
 import os
 
 
-
+#modified with git 
+#pushed to main branch
 openai_api_key = os.getenv("OPENAI_API_KEY")
 
 conn = sqlite3.connect('codexPromptData.db')
